@@ -14,6 +14,7 @@
 		87691EAA1D364556008C2E6F /* kalman_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 87691EA71D364556008C2E6F /* kalman_test.c */; };
 		87691EB11D379149008C2E6F /* iBeacon.c in Sources */ = {isa = PBXBuildFile; fileRef = 87691EAF1D379148008C2E6F /* iBeacon.c */; };
 		87691EB31D379FEB008C2E6F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87691EB21D379FEA008C2E6F /* Tools.swift */; };
+		87691EBD1D395F37008C2E6F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 87691EBC1D395F36008C2E6F /* README.md */; };
 		87A053161D29C2B400010583 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A053151D29C2B400010583 /* Point.swift */; };
 		87C168FC1D2C5A0300B6324E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 87C168FB1D2C5A0300B6324E /* Podfile */; };
 		87F129E01D27FF4800014021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F129DF1D27FF4800014021 /* AppDelegate.swift */; };
@@ -59,6 +60,7 @@
 		87691EAF1D379148008C2E6F /* iBeacon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iBeacon.c; sourceTree = "<group>"; };
 		87691EB01D379149008C2E6F /* iBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeacon.h; sourceTree = "<group>"; };
 		87691EB21D379FEA008C2E6F /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		87691EBC1D395F36008C2E6F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		87A053151D29C2B400010583 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		87C168FA1D2C57EC00B6324E /* ObjCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
 		87C168FB1D2C5A0300B6324E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -162,6 +164,7 @@
 		87F129DE1D27FF4800014021 /* IndoorPositionning_02 */ = {
 			isa = PBXGroup;
 			children = (
+				87691EBC1D395F36008C2E6F /* README.md */,
 				87691E921D33E84B008C2E6F /* kalman */,
 				87F129DF1D27FF4800014021 /* AppDelegate.swift */,
 				87F129E11D27FF4800014021 /* ViewController.swift */,
@@ -473,6 +476,7 @@
 				87691E9B1D33E88F008C2E6F /* matrix.c in Sources */,
 				87691E9A1D33E88F008C2E6F /* kalman.c in Sources */,
 				87691EAA1D364556008C2E6F /* kalman_test.c in Sources */,
+				87691EBD1D395F37008C2E6F /* README.md in Sources */,
 				87691EB11D379149008C2E6F /* iBeacon.c in Sources */,
 				87691EB31D379FEB008C2E6F /* Tools.swift in Sources */,
 			);
