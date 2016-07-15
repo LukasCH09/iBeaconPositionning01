@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IndoorPositionning_02" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="DrawPoint" customModule="IndoorPositionning_02" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" opaque="NO" multipleTouchEnabled="YES" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floorplan_overlay_floor4" translatesAutoresizingMaskIntoConstraints="NO" id="anw-60-MVL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k0e-pY-QGS" userLabel="MainImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <accessibility key="accessibilityConfiguration" label="view"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eoz-JL-BIB" userLabel="PositionImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="anw-60-MVL" secondAttribute="trailing" id="0zS-8b-CsD"/>
+                            <constraint firstItem="k0e-pY-QGS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2vs-yZ-Q9j"/>
+                            <constraint firstItem="k0e-pY-QGS" firstAttribute="top" secondItem="anw-60-MVL" secondAttribute="top" id="9nN-fs-4cP"/>
+                            <constraint firstItem="anw-60-MVL" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="PZp-UB-nQ9"/>
+                            <constraint firstItem="k0e-pY-QGS" firstAttribute="leading" secondItem="anw-60-MVL" secondAttribute="leading" id="UDn-GB-jE2"/>
+                            <constraint firstItem="k0e-pY-QGS" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="bh6-dr-E3T"/>
+                            <constraint firstItem="anw-60-MVL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="csO-cX-e4e"/>
+                            <constraint firstItem="k0e-pY-QGS" firstAttribute="trailing" secondItem="anw-60-MVL" secondAttribute="trailing" id="rcF-gh-ce6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainImageView" destination="k0e-pY-QGS" id="OLA-6n-I90"/>
+                        <outlet property="positionImageView" destination="Eoz-JL-BIB" id="C4y-8K-qzH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="277"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="floorplan_overlay_floor4" width="596" height="842"/>
+    </resources>
+</document>

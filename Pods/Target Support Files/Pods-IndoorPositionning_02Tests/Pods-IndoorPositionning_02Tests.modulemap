@@ -1,0 +1,6 @@
+framework module Pods_IndoorPositionning_02Tests {
+  umbrella header "Pods-IndoorPositionning_02Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

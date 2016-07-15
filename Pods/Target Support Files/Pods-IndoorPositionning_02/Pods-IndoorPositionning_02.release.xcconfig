@@ -1,0 +1,13 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SwiftLog" "${PODS_ROOT}/EstimoteSDK/EstimoteSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/EstimoteIndoorSDK" "${PODS_ROOT}/Headers/EstimoteSDK" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/EstimoteIndoorSDK" "${PODS_ROOT}/Headers/Public/EstimoteSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/EstimoteIndoorSDK" "$(PODS_ROOT)/EstimoteSDK" $(inherited) "${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftLog/SwiftLog.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/EstimoteIndoorSDK" -isystem "${PODS_ROOT}/Headers/Public/EstimoteSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"EstimoteIndoorSDK" -l"c++" -l"z" -framework "AudioToolbox" -framework "CoreBluetooth" -framework "CoreLocation" -framework "CoreMotion" -framework "EstimoteSDK" -framework "Foundation" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "SwiftLog" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

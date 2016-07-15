@@ -1,0 +1,18 @@
+PODS:
+  - EstimoteIndoorSDK (2.2.1):
+    - EstimoteSDK (~> 4.1)
+  - EstimoteSDK (4.7.1)
+  - SwiftLog (0.9.1)
+
+DEPENDENCIES:
+  - EstimoteIndoorSDK
+  - SwiftLog
+
+SPEC CHECKSUMS:
+  EstimoteIndoorSDK: c0a4b18f10b1b70d21bb7a69d66257508fc1ae80
+  EstimoteSDK: b7bae318490d7652f3b17d3b04d317cb64dc447e
+  SwiftLog: 82dc4ef232f2029efd76bc7a4f922d5a5b065f8c
+
+PODFILE CHECKSUM: 12e338b4f3a96617da4afd219dee16927ba90e99
+
+COCOAPODS: 1.0.1
